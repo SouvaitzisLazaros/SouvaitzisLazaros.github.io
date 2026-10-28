@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reference letters – Lazaros Souvaitzis</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%89%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #EDEFF3; --surface: #FFFFFF; --surface-2: #F4F5F9;
+    --ink: #1C2333; --ink-soft: #5B6178; --ink-faint: #8C90A0;
+    --accent: #3A5BA0; --accent-soft: #E1E7F5; --line: #DADDE5; --good: #2E7D5B; --bad: #B23A34; --bad-soft: rgba(178,58,52,.13);
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14161D; --surface: #1B1E28; --surface-2: #21242F;
+      --ink: #E7E8EC; --ink-soft: #9195A6; --ink-faint: #6C7080;
+      --accent: #86A5E4; --accent-soft: #232B42; --line: #2B2E3B; --good: #59B98B; --bad: #E1746D; --bad-soft: rgba(225,116,109,.16);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14161D; --surface: #1B1E28; --surface-2: #21242F;
+    --ink: #E7E8EC; --ink-soft: #9195A6; --ink-faint: #6C7080;
+    --accent: #86A5E4; --accent-soft: #232B42; --line: #2B2E3B; --good: #59B98B; --bad: #E1746D; --bad-soft: rgba(225,116,109,.16);
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.5; -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 {
+    font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+    font-weight: 500; font-size: 2rem; letter-spacing: -0.01em; margin: 0 0 8px;
+  }
+  .intro { color: var(--ink-soft); font-size: 0.92rem; margin: 0 0 8px; max-width: 60ch; }
+  .note { color: var(--ink-faint); font-size: 0.82rem; margin: 0 0 32px; max-width: 60ch; }
+  article { padding: 22px 0; border-top: 1px solid var(--line); }
+  article:last-of-type { border-bottom: 1px solid var(--line); }
+  .due {
+    display: inline-block; font-size: 0.78rem; font-weight: 600; letter-spacing: .02em;
+    color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 3px 8px; margin-bottom: 8px;
+  }
+  h2 {
+    font-family: 'Newsreader', Georgia, serif; font-weight: 500; font-size: 1.2rem;
+    line-height: 1.3; margin: 0 0 4px;
+  }
+  .due.soon { color: var(--bad); background: var(--bad-soft); }
+  .inst { margin: 0 0 4px; color: var(--ink-soft); font-size: 0.9rem; }
+  .ad { margin: 0 0 12px; font-size: 0.85rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  dl {
+    margin: 0; padding: 12px 14px; background: var(--surface-2); border-radius: 8px;
+    display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: 0.88rem;
+  }
+  dt { color: var(--ink-soft); }
+  dd { margin: 0; }
+  .unknown {
+    margin: 0; padding: 12px 14px; background: var(--surface-2); border-radius: 8px;
+    color: var(--ink-faint); font-size: 0.88rem;
+  }
+  .status { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 12px; }
+  .tick { display: flex; align-items: center; gap: 8px; font-size: 0.86rem; color: var(--ink-soft); }
+  .tick.on { color: var(--good); font-weight: 500; }
+  .tick input { width: 17px; height: 17px; margin: 0; accent-color: var(--accent); cursor: pointer; }
+  .tick input:disabled { cursor: default; }
+  @media (max-width: 520px) {
+    dl { grid-template-columns: 1fr; gap: 2px; }
+    dd { margin-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+<script id="app-data" type="application/json">{"entries": [{"id": "e6", "position": "Sirius Fellowship in Astrophysics Program", "institution": "Institute of Science and Technology Austria (ISTA)", "dueText": "Oct 15, 2026 · 14:00 CEST", "callLink": "https://aas.org/jobregister/ad/3349ec10", "letter": {"to": "Not stated in the AAS ad – see the ISTA programme page", "by": "Not stated (application due Oct 15, 2026, 14:00 CEST)", "url": "https://ista.ac.at/en/education/postdocs/sirius-fellowship", "note": ""}, "appSubmitted": true, "lettersSubmitted": true, "dueISO": "2026-10-15"}, {"id": "e9", "position": "Carnegie Theoretical Astrophysics Center (CTAC) Fellowship", "institution": "Carnegie Institution for Science, Pasadena", "dueText": "Oct 30, 2026", "callLink": "https://aas.org/jobregister/ad/65fd90fd", "letter": {"to": "Letter writers are contacted by Interfolio and submit the letter there", "by": "Oct 30, 2026 (applications and letters)", "url": "https://aas.org/jobregister/ad/65fd90fd", "interfolio": "https://apply.interfolio.com/192644", "note": "For the joint Carnegie–Caltech Theory Fellowship, the ad also requires an application on Academic Jobs Online (link above), following its procedures.", "recipient": "Not stated in the ad (contact: Dr. Anthony Piro)", "institute": "Carnegie Observatories, Carnegie Institution for Science", "address": "813 Santa Barbara Street, Pasadena, CA 91101, USA", "ajo": "https://academicjobsonline.org/ajo/jobs/32276"}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-10-30"}, {"id": "e17", "position": "Flatiron Research Fellow (FRF)", "institution": "Center for Computational Astrophysics (CCA), Flatiron Institute / Simons Foundation", "dueText": "Oct 31, 2026 (incl. letters)", "callLink": "https://apply.interfolio.com/193381", "letter": {"to": "3 letters; letter writers are contacted by Interfolio and submit the letter there", "by": "Oct 31, 2026 (all materials including letters)", "url": "https://www.simonsfoundation.org/grant/flatiron-research-fellow-opportunities/?tab=rfa", "interfolio": "https://apply.interfolio.com/193381", "note": "", "recipient": "Not stated in the ad", "institute": "Center for Computational Astrophysics (CCA), Flatiron Institute, Simons Foundation", "address": "162 5th Ave., New York, NY 10010, USA"}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-10-31"}, {"id": "e10", "position": "HITS Independent Postdoctoral Program", "institution": "Heidelberg Institute for Theoretical Studies (HITS)", "dueText": "Nov 1, 2026", "callLink": "https://aas.org/jobregister/ad/09fe3cd2", "letter": {"to": "Letter writers are contacted separately by the host", "by": "Application due Nov 1, 2026", "url": "https://short.sg/j/65926654", "note": "2 referees' contact details go in the application.", "recipient": "Not stated in the ad (contact: HR Department)", "institute": "Heidelberg Institute for Theoretical Studies (HITS gGmbH)", "address": "Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany"}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-01"}, {"id": "e19", "position": "Postdoctoral Research in Astrophysical Sciences (incl. Spitzer & Russell Fellowships, Rubin DM Team)", "institution": "Princeton University, Department of Astrophysical Sciences", "dueText": "Nov 1, 2026 (continues until positions filled)", "callLink": "https://apply.interfolio.com/193062", "letter": {"to": "3 letters; letter writers are contacted by Interfolio and submit the letter there", "by": "Nov 1, 2026", "url": "https://aas.org/jobregister/ad/b74bc3c8", "interfolio": "https://apply.interfolio.com/193062", "note": "", "recipient": "Not stated in the ad", "institute": "Department of Astrophysical Sciences, Princeton University", "address": "Peyton Hall, 4 Ivy Lane, Princeton, NJ 08544, USA"}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-01"}, {"id": "e12", "position": "CITA Postdoctoral Fellowships", "institution": "Canadian Institute for Theoretical Astrophysics (CITA)", "dueText": "Nov 2, 2026 · 23:59 EST", "callLink": "https://aas.org/jobregister/ad/825da264", "letter": {"to": "3 letters; letter writers are contacted separately", "by": "Nov 2, 2026", "url": "https://icat.cita.utoronto.ca/pdf", "note": "", "recipient": "Not stated in the ad (contact: CITA Office)", "institute": "Canadian Institute for Theoretical Astrophysics (CITA), University of Toronto", "address": "60 St. George Street, Room 1403, Toronto, ON M5S 3H8, Canada"}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-02"}, {"id": "e16", "position": "Postdoctoral Fellowships in Gravitational-Wave Physics (incl. GWSky project)", "institution": "Niels Bohr Institute, Center of Gravity, University of Copenhagen", "dueText": "Nov 15, 2026 (rolling after)", "callLink": "https://hyperspace.uni-frankfurt.de/2026/09/09/postdoctoral-fellowships-in-gravitational-wave-physics-niels-bohr-institute/", "letter": {"to": "Letter writers are contacted by Academic Jobs Online and submit the letter there", "by": "Nov 15, 2026 (rolling after)", "url": "https://hyperspace.uni-frankfurt.de/2026/09/09/postdoctoral-fellowships-in-gravitational-wave-physics-niels-bohr-institute/", "ajo": "https://academicjobsonline.org/ajo/jobs/32641", "note": ""}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-15"}, {"id": "e18", "position": "Postdoctoral Fellowship in Theoretical and Gravitational Wave Astrophysics", "institution": "Niels Bohr International Academy (NBIA), Niels Bohr Institute, University of Copenhagen", "dueText": "Nov 15, 2026 (late expressions may still be considered)", "callLink": "https://aas.org/jobregister/ad/eb332f9a", "letter": {"to": "Letter writers are contacted by Academic Jobs Online and submit the letter there", "by": "Nov 15, 2026", "url": "https://aas.org/jobregister/ad/eb332f9a", "ajo": "https://academicjobsonline.org/ajo/jobs/32776", "note": ""}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-15"}, {"id": "e24", "position": "Burke-Leinweber Fellowships in Theoretical Physics and Astrophysics", "institution": "Caltech (Walter Burke Institute / Leinweber Forum), Pasadena", "dueText": "Nov 15, 2026", "callLink": "https://aas.org/jobregister/ad/37919067", "letter": {"to": "Letter writers are contacted by Academic Jobs Online and submit the letter there", "by": "Nov 15, 2026", "url": "https://aas.org/jobregister/ad/37919067", "ajo": "https://academicjobsonline.org/ajo/jobs/32276", "note": ""}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-15"}, {"id": "e15", "position": "Postdoctoral Fellow: Black Hole Initiative", "institution": "Black Hole Initiative, Harvard University (affiliated with SAO)", "dueText": "Nov 16, 2026 · 17:00 EST", "callLink": "https://aas.org/jobregister/ad/ae42833c", "letter": {"to": "3 letters; letter writers are contacted separately", "by": "Nov 16, 2026, 5:00pm EST (reviewed on a rolling basis after)", "url": "https://academicpositions.harvard.edu/postings/16776", "note": ""}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-16"}, {"id": "e25", "position": "ERC-funded Postdoctoral Positions in GW Source Modelling (EMRIWaveforms, Wardell)", "institution": "Relativity Group, University College Dublin (UCD)", "dueText": "Nov 27, 2026 (open until filled)", "callLink": "https://hyperspace.uni-frankfurt.de/2026/10/23/erc-funded-postdoctoral-positions/", "letter": {"to": "Details of 2 reference letter writers go in the CV; the ad doesn't ask for letters at application stage", "by": "Application due Nov 27, 2026", "url": "https://hyperspace.uni-frankfurt.de/2026/10/23/erc-funded-postdoctoral-positions/", "note": "Questions: barry.wardell@ucd.ie"}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-27"}, {"id": "e22", "position": "Associate Research Scholar, Leinweber Forum for Theoretical Physics", "institution": "Princeton University", "dueText": "Nov 30, 2026 (incl. letters)", "callLink": "https://hyperspace.uni-frankfurt.de/2026/09/24/associate-research-scholar-at-the-leinweber-forum-for-theoretical-physics-princeton-nj-usa/", "letter": {"to": "3 references; letter writers are contacted by Interfolio and submit the letter there", "by": "Nov 30, 2026", "url": "https://hyperspace.uni-frankfurt.de/2026/09/24/associate-research-scholar-at-the-leinweber-forum-for-theoretical-physics-princeton-nj-usa/", "interfolio": "https://apply.interfolio.com/192724", "note": ""}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-11-30"}, {"id": "e23", "position": "Postdoctoral Fellowship in Near-Horizon Black Hole Science (Chael group)", "institution": "Niels Bohr International Academy (NBIA), Niels Bohr Institute, University of Copenhagen", "dueText": "Dec 1, 2026 (later expressions may be considered)", "callLink": "https://aas.org/jobregister/ad/107d72fd", "letter": {"to": "Letter writers are contacted by Academic Jobs Online and submit the letter there", "by": "Dec 1, 2026", "url": "https://aas.org/jobregister/ad/107d72fd", "ajo": "https://academicjobsonline.org/ajo/jobs/32991", "note": ""}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-12-01"}, {"id": "e14", "position": "Postdoctoral Associate in Computational Relativistic Astrophysics", "institution": "MIT Kavli Institute for Astrophysics and Space Research", "dueText": "Dec 4, 2026 (rolling after)", "callLink": "https://aas.org/jobregister/ad/cadcbcc5", "letter": {"to": "Letter writers are contacted by Academic Jobs Online and submit the letter there", "by": "Dec 4, 2026 (rolling after)", "url": "https://aas.org/jobregister/ad/cadcbcc5", "ajo": "https://academicjobsonline.org/ajo/jobs/32518", "note": ""}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-12-04"}, {"id": "e21", "position": "Postdoctoral Associate in Astrophysics (SMBH astrophysics, Blecha group)", "institution": "University of Florida, Department of Physics", "dueText": "Dec 4, 2026 (full consideration)", "callLink": "https://aas.org/jobregister/ad/04a9cefc", "letter": {"to": "No letters yet: the applicant lists 3 referees (names and emails); letters are requested only from selected applicants", "by": "On request (application due Dec 4, 2026)", "url": "https://aas.org/jobregister/ad/04a9cefc", "note": ""}, "appSubmitted": false, "lettersSubmitted": false, "dueISO": "2026-12-04"}]}</script>
+<div id="app"></div>
+<script>
+(function () {
+  'use strict';
+
+  var state = { entries: [] };
+  try { state = JSON.parse(document.getElementById('app-data').textContent); } catch (e) {}
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function link(url, text) {
+    return '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + text + '</a>';
+  }
+
+  function daysUntil(iso) {
+    if (!iso) return null;
+    var now = new Date();
+    var todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    var p = iso.split('-');
+    return Math.round((Date.UTC(+p[0], +p[1] - 1, +p[2]) - todayUTC) / 86400000);
+  }
+
+  function renderEntry(e) {
+    var L = e.letter || {};
+    var rows = '';
+    if (L.recipient) rows += '<dt>Recipient</dt><dd>' + esc(L.recipient) + '</dd>';
+    if (L.institute) rows += '<dt>Institute</dt><dd>' + esc(L.institute) + '</dd>';
+    if (L.address) rows += '<dt>Address</dt><dd>' + esc(L.address) + '</dd>';
+    if (L.to) rows += '<dt>Send to</dt><dd>' + esc(L.to) + '</dd>';
+    if (L.by) rows += '<dt>When</dt><dd>' + esc(L.by) + '</dd>';
+    if (L.interfolio) rows += '<dt>Interfolio</dt><dd>' + link(L.interfolio, 'Open on Interfolio') + '</dd>';
+    if (L.ajo) rows += '<dt>Academic Jobs Online</dt><dd>' + link(L.ajo, 'Open on AJO') + '</dd>';
+    if (L.url) rows += '<dt>Instructions</dt><dd>' + link(L.url, 'Open page') + '</dd>';
+    if (L.note) rows += '<dt>Notes</dt><dd>' + esc(L.note) + '</dd>';
+    var letter = rows
+      ?
