@@ -122,4 +122,36 @@
     if (L.url) rows += '<dt>Instructions</dt><dd>' + link(L.url, 'Open page') + '</dd>';
     if (L.note) rows += '<dt>Notes</dt><dd>' + esc(L.note) + '</dd>';
     var letter = rows
-      ?
+
+      ? '<dl>' + rows + '</dl>'
+      : '<p class="unknown">Letter instructions not stated in the ad. Details will be added here when confirmed.</p>';
+
+    var dl = daysUntil(e.dueISO);
+    var soon = !e.lettersSubmitted && dl !== null && dl >= 0 && dl <= 7;
+    var leftText = dl === 0 ? 'due today' : dl === 1 ? '1 day left' : dl + ' days left';
+
+    function tick(field, label) {
+      var on = !!e[field];
+      return '<label class="tick' + (on ? ' on' : '') + '"><input type="checkbox"' + (on ? ' checked' : '') + ' disabled> ' + label + '</label>';
+    }
+
+    return '<article>' +
+      '<div class="due' + (soon ? ' soon' : '') + '">' + esc(e.dueText) + (soon ? ' \u00b7 ' + leftText : '') + '</div>' +
+      '<h2>' + esc(e.position) + '</h2>' +
+      '<p class="inst">' + esc(e.institution) + '</p>' +
+      '<p class="ad">' + (e.callLink ? link(e.callLink, 'Job ad') : '') + '</p>' +
+      letter +
+      '<div class="status">' + tick('appSubmitted', 'Application submitted') + tick('lettersSubmitted', 'Letters submitted') + '</div>' +
+    '</article>';
+  }
+
+  document.getElementById('app').outerHTML = '<div id="app"><main>' +
+    '<h1>Reference letters</h1>' +
+    '<p class="intro">Letters of recommendation for Lazaros Souvaitzis, listed by deadline. Where an ad doesn\u2019t say how or where letters go, it\u2019s marked as not stated and will be updated once confirmed.</p>' +
+    '<p class="note">The tick boxes show progress and are updated by the applicant as things are submitted.</p>' +
+    state.entries.map(renderEntry).join('') +
+  '</main></div>';
+})();
+</script>
+</body>
+</html>
