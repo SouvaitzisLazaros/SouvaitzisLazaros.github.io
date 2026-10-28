@@ -1,0 +1,257 @@
+{
+  "entries": [
+    {
+      "id": "e6",
+      "position": "Sirius Fellowship in Astrophysics Program",
+      "appSubmitted": true,
+      "lettersSubmitted": true,
+      "dueISO": "2026-10-15",
+      "dueText": "Oct 15, 2026 · 14:00 CEST",
+      "institution": "Institute of Science and Technology Austria (ISTA)",
+      "callLink": "https://aas.org/jobregister/ad/3349ec10",
+      "letter": {
+        "to": "Not stated in the AAS ad – see the ISTA programme page",
+        "by": "Not stated (application due Oct 15, 2026, 14:00 CEST)",
+        "url": "https://ista.ac.at/en/education/postdocs/sirius-fellowship"
+      }
+    },
+    {
+      "id": "e9",
+      "position": "Carnegie Theoretical Astrophysics Center (CTAC) Fellowship",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-10-30",
+      "dueText": "Oct 30, 2026",
+      "institution": "Carnegie Institution for Science, Pasadena",
+      "callLink": "https://aas.org/jobregister/ad/65fd90fd",
+      "letter": {
+        "recipient": "Not stated in the ad (contact: Dr. Anthony Piro)",
+        "institute": "Carnegie Observatories, Carnegie Institution for Science",
+        "address": "813 Santa Barbara Street, Pasadena, CA 91101, USA",
+        "to": "Letter writers are contacted by Interfolio and submit the letter there",
+        "by": "Oct 30, 2026 (applications and letters)",
+        "interfolio": "https://apply.interfolio.com/192644",
+        "ajo": "https://academicjobsonline.org/ajo/jobs/32276",
+        "url": "https://aas.org/jobregister/ad/65fd90fd",
+        "note": "For the joint Carnegie–Caltech Theory Fellowship, the ad also requires an application on Academic Jobs Online (link above), following its procedures."
+      }
+    },
+    {
+      "id": "e17",
+      "position": "Flatiron Research Fellow (FRF)",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-10-31",
+      "dueText": "Oct 31, 2026 (incl. letters)",
+      "institution": "Center for Computational Astrophysics (CCA), Flatiron Institute / Simons Foundation",
+      "callLink": "https://apply.interfolio.com/193381",
+      "letter": {
+        "recipient": "Not stated in the ad",
+        "institute": "Center for Computational Astrophysics (CCA), Flatiron Institute, Simons Foundation",
+        "address": "162 5th Ave., New York, NY 10010, USA",
+        "to": "3 letters; letter writers are contacted by Interfolio and submit the letter there",
+        "by": "Oct 31, 2026 (all materials including letters)",
+        "interfolio": "https://apply.interfolio.com/193381",
+        "url": "https://www.simonsfoundation.org/grant/flatiron-research-fellow-opportunities/?tab=rfa"
+      }
+    },
+    {
+      "id": "e10",
+      "position": "HITS Independent Postdoctoral Program",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-01",
+      "dueText": "Nov 1, 2026",
+      "institution": "Heidelberg Institute for Theoretical Studies (HITS)",
+      "callLink": "https://aas.org/jobregister/ad/09fe3cd2",
+      "letter": {
+        "recipient": "Not stated in the ad (contact: HR Department)",
+        "institute": "Heidelberg Institute for Theoretical Studies (HITS gGmbH)",
+        "address": "Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany",
+        "to": "Letter writers are contacted separately by the host",
+        "by": "Application due Nov 1, 2026",
+        "url": "https://short.sg/j/65926654",
+        "note": "2 referees' contact details go in the application."
+      }
+    },
+    {
+      "id": "e19",
+      "position": "Postdoctoral Research in Astrophysical Sciences (incl. Spitzer & Russell Fellowships, Rubin DM Team)",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-01",
+      "dueText": "Nov 1, 2026 (continues until positions filled)",
+      "institution": "Princeton University, Department of Astrophysical Sciences",
+      "callLink": "https://apply.interfolio.com/193062",
+      "letter": {
+        "recipient": "Not stated in the ad",
+        "institute": "Department of Astrophysical Sciences, Princeton University",
+        "address": "Peyton Hall, 4 Ivy Lane, Princeton, NJ 08544, USA",
+        "to": "3 letters; letter writers are contacted by Interfolio and submit the letter there",
+        "by": "Nov 1, 2026",
+        "interfolio": "https://apply.interfolio.com/193062",
+        "url": "https://aas.org/jobregister/ad/b74bc3c8"
+      }
+    },
+    {
+      "id": "e12",
+      "position": "CITA Postdoctoral Fellowships",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-02",
+      "dueText": "Nov 2, 2026 · 23:59 EST",
+      "institution": "Canadian Institute for Theoretical Astrophysics (CITA)",
+      "callLink": "https://aas.org/jobregister/ad/825da264",
+      "letter": {
+        "recipient": "Not stated in the ad (contact: CITA Office)",
+        "institute": "Canadian Institute for Theoretical Astrophysics (CITA), University of Toronto",
+        "address": "60 St. George Street, Room 1403, Toronto, ON M5S 3H8, Canada",
+        "to": "3 letters; letter writers are contacted separately",
+        "by": "Nov 2, 2026",
+        "url": "https://icat.cita.utoronto.ca/pdf"
+      }
+    },
+    {
+      "id": "e16",
+      "position": "Postdoctoral Fellowships in Gravitational-Wave Physics (incl. GWSky project)",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-15",
+      "dueText": "Nov 15, 2026 (rolling after)",
+      "institution": "Niels Bohr Institute, Center of Gravity, University of Copenhagen",
+      "callLink": "https://hyperspace.uni-frankfurt.de/2026/09/09/postdoctoral-fellowships-in-gravitational-wave-physics-niels-bohr-institute/",
+      "letter": {
+        "to": "Letter writers are contacted by Academic Jobs Online and submit the letter there",
+        "by": "Nov 15, 2026 (rolling after)",
+        "ajo": "https://academicjobsonline.org/ajo/jobs/32641",
+        "url": "https://hyperspace.uni-frankfurt.de/2026/09/09/postdoctoral-fellowships-in-gravitational-wave-physics-niels-bohr-institute/"
+      }
+    },
+    {
+      "id": "e18",
+      "position": "Postdoctoral Fellowship in Theoretical and Gravitational Wave Astrophysics",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-15",
+      "dueText": "Nov 15, 2026 (late expressions may still be considered)",
+      "institution": "Niels Bohr International Academy (NBIA), Niels Bohr Institute, University of Copenhagen",
+      "callLink": "https://aas.org/jobregister/ad/eb332f9a",
+      "letter": {
+        "to": "Letter writers are contacted by Academic Jobs Online and submit the letter there",
+        "by": "Nov 15, 2026",
+        "ajo": "https://academicjobsonline.org/ajo/jobs/32776",
+        "url": "https://aas.org/jobregister/ad/eb332f9a"
+      }
+    },
+    {
+      "id": "e24",
+      "position": "Burke-Leinweber Fellowships in Theoretical Physics and Astrophysics",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-15",
+      "dueText": "Nov 15, 2026",
+      "institution": "Caltech (Walter Burke Institute / Leinweber Forum), Pasadena",
+      "callLink": "https://aas.org/jobregister/ad/37919067",
+      "letter": {
+        "to": "Letter writers are contacted by Academic Jobs Online and submit the letter there",
+        "by": "Nov 15, 2026",
+        "ajo": "https://academicjobsonline.org/ajo/jobs/32276",
+        "url": "https://aas.org/jobregister/ad/37919067"
+      }
+    },
+    {
+      "id": "e15",
+      "position": "Postdoctoral Fellow: Black Hole Initiative",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-16",
+      "dueText": "Nov 16, 2026 · 17:00 EST",
+      "institution": "Black Hole Initiative, Harvard University (affiliated with SAO)",
+      "callLink": "https://aas.org/jobregister/ad/ae42833c",
+      "letter": {
+        "to": "3 letters; letter writers are contacted separately",
+        "by": "Nov 16, 2026, 5:00pm EST (reviewed on a rolling basis after)",
+        "url": "https://academicpositions.harvard.edu/postings/16776"
+      }
+    },
+    {
+      "id": "e25",
+      "position": "ERC-funded Postdoctoral Positions in GW Source Modelling (EMRIWaveforms, Wardell)",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-27",
+      "dueText": "Nov 27, 2026 (open until filled)",
+      "institution": "Relativity Group, University College Dublin (UCD)",
+      "callLink": "https://hyperspace.uni-frankfurt.de/2026/10/23/erc-funded-postdoctoral-positions/",
+      "letter": {
+        "to": "Details of 2 reference letter writers go in the CV; the ad doesn't ask for letters at application stage",
+        "by": "Application due Nov 27, 2026",
+        "url": "https://hyperspace.uni-frankfurt.de/2026/10/23/erc-funded-postdoctoral-positions/",
+        "note": "Questions: barry.wardell@ucd.ie"
+      }
+    },
+    {
+      "id": "e22",
+      "position": "Associate Research Scholar, Leinweber Forum for Theoretical Physics",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-11-30",
+      "dueText": "Nov 30, 2026 (incl. letters)",
+      "institution": "Princeton University",
+      "callLink": "https://hyperspace.uni-frankfurt.de/2026/09/24/associate-research-scholar-at-the-leinweber-forum-for-theoretical-physics-princeton-nj-usa/",
+      "letter": {
+        "to": "3 references; letter writers are contacted by Interfolio and submit the letter there",
+        "by": "Nov 30, 2026",
+        "interfolio": "https://apply.interfolio.com/192724",
+        "url": "https://hyperspace.uni-frankfurt.de/2026/09/24/associate-research-scholar-at-the-leinweber-forum-for-theoretical-physics-princeton-nj-usa/"
+      }
+    },
+    {
+      "id": "e23",
+      "position": "Postdoctoral Fellowship in Near-Horizon Black Hole Science (Chael group)",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-12-01",
+      "dueText": "Dec 1, 2026 (later expressions may be considered)",
+      "institution": "Niels Bohr International Academy (NBIA), Niels Bohr Institute, University of Copenhagen",
+      "callLink": "https://aas.org/jobregister/ad/107d72fd",
+      "letter": {
+        "to": "Letter writers are contacted by Academic Jobs Online and submit the letter there",
+        "by": "Dec 1, 2026",
+        "ajo": "https://academicjobsonline.org/ajo/jobs/32991",
+        "url": "https://aas.org/jobregister/ad/107d72fd"
+      }
+    },
+    {
+      "id": "e14",
+      "position": "Postdoctoral Associate in Computational Relativistic Astrophysics",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-12-04",
+      "dueText": "Dec 4, 2026 (rolling after)",
+      "institution": "MIT Kavli Institute for Astrophysics and Space Research",
+      "callLink": "https://aas.org/jobregister/ad/cadcbcc5",
+      "letter": {
+        "to": "Letter writers are contacted by Academic Jobs Online and submit the letter there",
+        "by": "Dec 4, 2026 (rolling after)",
+        "ajo": "https://academicjobsonline.org/ajo/jobs/32518",
+        "url": "https://aas.org/jobregister/ad/cadcbcc5"
+      }
+    },
+    {
+      "id": "e21",
+      "position": "Postdoctoral Associate in Astrophysics (SMBH astrophysics, Blecha group)",
+      "appSubmitted": false,
+      "lettersSubmitted": false,
+      "dueISO": "2026-12-04",
+      "dueText": "Dec 4, 2026 (full consideration)",
+      "institution": "University of Florida, Department of Physics",
+      "callLink": "https://aas.org/jobregister/ad/04a9cefc",
+      "letter": {
+        "to": "No letters yet: the applicant lists 3 referees (names and emails); letters are requested only from selected applicants",
+        "by": "On request (application due Dec 4, 2026)",
+        "url": "https://aas.org/jobregister/ad/04a9cefc"
+      }
+    }
+  ]
+}
