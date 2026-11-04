@@ -18,8 +18,8 @@
     {
       "id": "e17",
       "position": "Flatiron Research Fellow (FRF)",
-      "appSubmitted": false,
-      "lettersSubmitted": false,
+      "appSubmitted": true,
+      "lettersSubmitted": true,
       "dueISO": "2026-10-31",
       "dueText": "Oct 31, 2026 (incl. letters)",
       "institution": "Center for Computational Astrophysics (CCA), Flatiron Institute / Simons Foundation",
@@ -37,8 +37,8 @@
     {
       "id": "e10",
       "position": "HITS Independent Postdoctoral Program",
-      "appSubmitted": false,
-      "lettersSubmitted": false,
+      "appSubmitted": true,
+      "lettersSubmitted": true,
       "dueISO": "2026-11-01",
       "dueText": "Nov 1, 2026",
       "institution": "Heidelberg Institute for Theoretical Studies (HITS)",
@@ -56,8 +56,8 @@
     {
       "id": "e19",
       "position": "Postdoctoral Research in Astrophysical Sciences (incl. Spitzer & Russell Fellowships, Rubin DM Team)",
-      "appSubmitted": false,
-      "lettersSubmitted": false,
+      "appSubmitted": true,
+      "lettersSubmitted": true,
       "dueISO": "2026-11-01",
       "dueText": "Nov 1, 2026 (continues until positions filled)",
       "institution": "Princeton University, Department of Astrophysical Sciences",
@@ -75,8 +75,8 @@
     {
       "id": "e12",
       "position": "CITA Postdoctoral Fellowships",
-      "appSubmitted": false,
-      "lettersSubmitted": false,
+      "appSubmitted": true,
+      "lettersSubmitted": true,
       "dueISO": "2026-11-02",
       "dueText": "Nov 2, 2026 · 23:59 EST",
       "institution": "Canadian Institute for Theoretical Astrophysics (CITA)",
