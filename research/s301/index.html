@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>S301 and the spin of Sgr A* – Lazaros Souvaitzis</title>
+<style>
+  :root {
+    --bg: #EDEFF3; --surface: #FFFFFF; --ink: #1C2333; --ink-soft: #5B6178;
+    --accent: #3A5BA0; --line: #DADDE5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14161D; --surface: #1B1E28; --ink: #E7E8EC; --ink-soft: #9195A6; --accent: #86A5E4; --line: #2B2E3B; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); line-height: 1.55;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; -webkit-font-smoothing: antialiased; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 1.7rem; margin: 0 0 6px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 8px; }
+  p { margin: 0 0 12px; }
+  .sub { color: var(--ink-soft); margin-bottom: 28px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+  video { width: 100%; height: auto; display: block; border-radius: 6px; background: #000; }
+  .cap { color: var(--ink-soft); font-size: .9rem; margin-top: 10px; }
+  a { color: var(--accent); }
+  .btn { display: inline-block; padding: 9px 16px; border: 1px solid var(--accent); border-radius: 8px;
+         text-decoration: none; font-weight: 500; }
+  .btn:hover { background: var(--accent); color: var(--surface); }
+</style>
+</head>
+<body>
+<main>
+  <h1>S301 and the spin of Sgr A*</h1>
+  <p class="sub">The orbit of the star S301 around Sgr A* as an exact Kerr geodesic: a = 83 mas, e = 0.9832, pericentre 136 R<sub>S</sub>, P = 8.69 yr (orbit 1 of Abd El Dayem et al. 2026). Computed with KerrGeoPy.</p>
+
+  <h2>Orbit, 2014–2041</h2>
+  <div class="card">
+    <video controls playsinline preload="metadata" poster="poster.jpg">
+      <source src="s301_orbit.mp4" type="video/mp4">
+      Your browser cannot play this video. <a href="s301_orbit.mp4">Download it</a>.
+    </video>
+    <p class="cap">Sky track of S301 for a non-spinning (χ = 0) and a maximally spinning (χ = 1, ξ = 0°) Sgr A*. The frames are uniform in observed time, so the pericentre passage really is this fast. The two tracks separate only in the inset and in the bottom panel, which shows the astrometric difference in μas against the GRAVITY+ precision.</p>
+  </div>
+
+  <h2>Spin explorer</h2>
+  <p>Change the spin magnitude and orientation and see how it reshapes the orbit and the astrometric signal, using exact Kerr geodesics. The spin direction matters as much as its magnitude.</p>
+  <p><a class="btn" href="spin_explorer.html">Open the spin explorer</a></p>
+</main>
+</body>
+</html>
