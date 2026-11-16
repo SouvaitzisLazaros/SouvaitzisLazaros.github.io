@@ -93,8 +93,8 @@
     {
       "id": "e16",
       "position": "Postdoctoral Fellowships in Gravitational-Wave Physics (incl. GWSky project)",
-      "appSubmitted": false,
-      "lettersSubmitted": false,
+      "appSubmitted": true,
+      "lettersSubmitted": true,
       "dueISO": "2026-11-15",
       "dueText": "Nov 15, 2026 (rolling after)",
       "institution": "Niels Bohr Institute, Center of Gravity, University of Copenhagen",
@@ -112,8 +112,8 @@
     {
       "id": "e18",
       "position": "Postdoctoral Fellowship in Theoretical and Gravitational Wave Astrophysics",
-      "appSubmitted": false,
-      "lettersSubmitted": false,
+      "appSubmitted": true,
+      "lettersSubmitted": true,
       "dueISO": "2026-11-15",
       "dueText": "Nov 15, 2026 (late expressions may still be considered)",
       "institution": "Niels Bohr International Academy (NBIA), Niels Bohr Institute, University of Copenhagen",
@@ -131,8 +131,8 @@
     {
       "id": "e24",
       "position": "Burke-Leinweber Fellowships in Theoretical Physics and Astrophysics",
-      "appSubmitted": false,
-      "lettersSubmitted": false,
+      "appSubmitted": true,
+      "lettersSubmitted": true,
       "dueISO": "2026-11-15",
       "dueText": "Nov 15, 2026",
       "institution": "Caltech (Walter Burke Institute / Leinweber Forum), Pasadena",
@@ -150,8 +150,8 @@
     {
       "id": "e15",
       "position": "Postdoctoral Fellow: Black Hole Initiative",
-      "appSubmitted": false,
-      "lettersSubmitted": false,
+      "appSubmitted": true,
+      "lettersSubmitted": true,
       "dueISO": "2026-11-16",
       "dueText": "Nov 16, 2026 · 17:00 EST",
       "institution": "Black Hole Initiative, Harvard University (affiliated with SAO)",
